@@ -1,0 +1,9 @@
+Sebagai seorang Bussiness Intelligence, terdapat hal-hal yang harus saya lakukan untuk mendapatkan insight (wawasan) dari data yang diberikan sehingga dapat memberikan usulan terhadap kasus yang terjadi.
+Pertama-tama, yang saya lakukan yaitu membersihkan data (Data Cleaning). Hal ini perlu dilakukan agar data-data yang digunakan sudah bersih sehingga dapat digunakan.
+Setelah nembersihkan data, langkah berikutnya yaitu mengekplorasi data (Exploratory Data Analysis). Langkah ini dilakukan agar dapat menarik insight dari data yang sudah dibersihkan tersebut.
+setelah melakukan langkah-langkah yang diperlukan, berikut adalah masukan yang dapat saya berikan sebagai seorang Business Intelligence:
+1. Membuat E-Commerce agar dapat menjangkau lebih banyak konsumen
+2. Mengganti teknik marketing
+3. Memberikan promo-promo pada bulan-bulan tertentu supaya adanya peningkatan dalam penjualan
+4. Mempertahankan kualitas produk dari kategori-kategori yang memiliki penjualan yang bagus seperti Robots, Drones, Robot Kits dan Drone kits
+5. Memperbanyak produk-produk dengan kategori Ebooks, Training videos, Blueprints, Drone Kits dan Drones karena produk-produk dari kategori tersebut merupakan produk yang banyak dipesan.
