@@ -1,0 +1,23 @@
+WITH CTE As (
+  SELECT
+    `fake-project-rayhan.1.Orders`.Date As order_date,
+    `fake-project-rayhan.1.Category`.CategoryName As category_name,
+    `fake-project-rayhan.1.Products`.ProdName As product_name,
+    `fake-project-rayhan.1.Products`.Price As product_price,
+    `fake-project-rayhan.1.Orders`.Quantity As order_qty,
+    (`fake-project-rayhan.1.Orders`.Quantity * `fake-project-rayhan.1.Products`.Price) As total_sales,
+    `fake-project-rayhan.1.Customers`.CustomerEmail As cust_email,
+    `fake-project-rayhan.1.Customers`.CustomerCity As cust_city
+  FROM `fake-project-rayhan.1.Orders`
+  LEFT JOIN `fake-project-rayhan.1.Customers`
+    ON `fake-project-rayhan.1.Orders`.CustomerId = `fake-project-rayhan.1.Customers`.CustomerID
+  LEFT JOIN `fake-project-rayhan.1.Products`
+    ON `fake-project-rayhan.1.Orders`.ProdNumber = `fake-project-rayhan.1.Products`.ProdNumber
+  LEFT JOIN `fake-project-rayhan.1.Category`
+    ON `fake-project-rayhan.1.Products`.Category = `fake-project-rayhan.1.Category`.CategoryId
+  ORDER BY 1
+)
+
+SELECT * FROM CTE;
+
+
