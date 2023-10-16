@@ -1,0 +1,6 @@
+pertanyaan nomor 1:
+1. bagian mana sajakah yang merupakan primary key pada tabel-tabel berikut:
+	a. tabel customers: pada tabel ini, kolom CustomerID merupakan primary key, karena nilai-nilai pada CustomerId bersifat Unique
+	b. tabel Products: pada tabel ini, kolom ProdNumber merupakan primary key, karena nilai-nilai pada ProdNumber bersifat Unique
+	c. tabel Orders: pada tabel ini, kolom OrderID merupakan primary key, karena nilai-nilai pada OrderID bersifat Unique. selain itu, kolom CustomerID dan ProdNumber pada tabel ini merupakan foreign key, yang dimana berfungsi sebagai penghubung terhadap tabel-tabel lainnya.
+	d. tabel Category: pada tabel ini, kolom CategoryID merupakan primary key, karena nilai-nilai pada CategoryID bersifat Unique
